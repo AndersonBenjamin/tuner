@@ -1,0 +1,6 @@
+services:
+  afinador:
+    build: .
+    ports:
+      - "127.0.0.1:7070:80"
+    restart: unless-stopped
